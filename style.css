@@ -849,3 +849,25 @@ a {
   background-repeat: no-repeat;
 
 }
+.hu {
+
+  background-image: url(./B.png);
+  background-position: 10% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}.ho {
+
+  background-image: url(./C.png);
+  background-position: 10% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}.hihi {
+
+  background-image: url(./A.png);
+  background-position: 10% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
