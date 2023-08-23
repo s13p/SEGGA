@@ -33,11 +33,19 @@ section {
 .box2 {
   height: 300px;
   background-color: rgba(134, 134, 134, 0.219);
-  padding: 20px;
+  padding: 20px 100px;
   margin: auto;
+  width: 90vw;
+}
+.box2 h1 {
+
+  color: white;
+  text-align: center;
 }
 .box2 p {
   margin-top:10% ;
+  color: white;
+  text-align: center;
 }
 .vid {
   width: 60%;
@@ -160,16 +168,16 @@ transition: background-color 0.3s;
         padding: 0;
       }
       .wrapper {
-        height: 100vh;
+        height: 110vh;
         width: 100vw;
-        margin-top: -10vh;
+        margin-top: -20vh;
         background-color: rgba(140, 205, 235, 0.411);
         position: fixed;
         z-index: -1;
         background-image: url("./bg.gif");
 
         /* Full height */
-        height: 100vh;
+       
       
         /* Center and scale the image nicely */
         background-position: center;

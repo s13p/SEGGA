@@ -10,6 +10,11 @@
     <title>SEGA</title>
 </head>
 <body >
+  <audio style="display: none;" controls autoplay>
+    <source src="audtio.ogg" type="audio/ogg">
+    <source src="audtio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
   <style>
     /* Styling for the popup */
     .popup {
@@ -21,9 +26,10 @@
       flex-direction: row;
       justify-content:space-between;
       z-index: 999999;
+      color: wheat;
       transform: translate(-50%, -50%);
       padding: 20px;
-      background-color: white;
+      background-color: rgb(14, 14, 14);
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
       
     }
@@ -43,7 +49,7 @@
     .buttonZ {
       margin-top: 10px;
       padding: 5px 10px;
-      background-color: #007bff;
+      background-color: #007bff00;
       color: white;
       border: none;
       cursor: pointer;
@@ -54,8 +60,8 @@
 <div class="popup" id="popup">
 
   <H2>ARE YOU READY???</H2>
-  <button class="buttonZ" style="font-size: 30px;        font-family: 'Press Start 2P', cursive; margin-left: 5REM;" onclick="closePopup()"> <img class="small" src="./A.png" alt=""><p>YES</p></button>
- <a href="puta.html"> <button class="buttonZ" style="font-size: 30px;       font-family: 'Press Start 2P', cursive;"  onclick="closePopup()"> <img class="small" src="./B.png" alt=""><P>NO</P></button></a>
+  <button class="buttonZ" style="font-size: 30px;        font-family: 'Press Start 2P', cursive; margin-left: 7REM;" onclick="closePopup()"> <img class="small" src="./A.png" alt=""></button>
+ <a href="puta.html"> <button class="buttonZ" style="font-size: 30px;       font-family: 'Press Start 2P', cursive;"  onclick="closePopup()"> <img class="small" src="./B.png" alt=""><P></button></a>
 
 </div>
     <div class="wrapper">
@@ -107,6 +113,12 @@
                 </div>
         </div>
     </section><br><br><br>
+    <section  >
+      <div class="box2">
+        <h1>ABOUT</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt sit atque rem fugit qui? Aperiam facilis debitis ad enim eum, a officiis ab, aut similique dolorem animi, totam laboriosam laudantium!</p>
+      </div>
+    </section>
     <section class="box bodzy">
       <div class="box1">
         <div class="container">
@@ -123,11 +135,7 @@
       </div>
 
     </section>
-    <section class="box" >
-      <div class="box2">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt sit atque rem fugit qui? Aperiam facilis debitis ad enim eum, a officiis ab, aut similique dolorem animi, totam laboriosam laudantium!</p>
-      </div>
-    </section>
+
 <script>
   const contentDiv = document.getElementById("content");
 const button1 = document.getElementById("button1");
@@ -141,7 +149,7 @@ button1.addEventListener("click", () => {
         <img src="1.png" alt="Image 1">
       </div>
       <div class="paragraph-section">
-        <p>Content for Button 1</p>
+        <p></p>
       </div>
     </div>`;
 });
@@ -153,7 +161,7 @@ button2.addEventListener("click", () => {
         <img src="2.gif" alt="Image 2">
       </div>
       <div class="paragraph-section">
-        <p>Content for Button 2</p>
+        <p></p>
       </div>
     </div>`;
 });
@@ -165,7 +173,7 @@ button3.addEventListener("click", () => {
         <img src="3.gif" alt="Image 3">
       </div>
       <div class="paragraph-section">
-        <p>Content for Button 3</p>
+        <p></p>
       </div>
     </div>`;
 });
