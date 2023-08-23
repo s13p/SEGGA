@@ -10,6 +10,49 @@
     <title>SEGA</title>
 </head>
 <body >
+  <style>
+    /* Styling for the popup */
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      z-index: 999999;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    /* Styling for the overlay background */
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    /* Styling for the buttons */
+    .buttonZ {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    </style>
+    
+<div class="overlay" id="overlay" onclick="closePopup()"></div>
+<div class="popup" id="popup">
+
+  <H2>ARE YOU READY???</H2>
+  <button class="buttonZ" onclick="closePopup()">YES</button>
+
+</div>
     <div class="wrapper">
      
         <div><span class="dot"></span></div>
@@ -28,7 +71,7 @@
         <div><span class="dot"></span></div>
         <div><span class="dot"></span></div>
      </div>
-     <h1 class="header-wrap" style=" font-size: 60px; font-weight: 500; letter-spacing: 5px;margin-top: 6rem;" >SEGA STUFF</h1>
+     <h1 class="header-wrap" style=" font-size: 60px; font-weight: 500; letter-spacing: 5px;margin-top: 6rem;" >GAME OVER</h1>
     <section class="box ">
         <div class="box1" >
             <div class="parent">
@@ -42,7 +85,7 @@
                     <a  href=""><button class="a q1" >DEXTOOLS</button></a>
       
 
-                    <img class="logo" src="./logo.jpg" alt="">
+                    <img class="logo" src="./logo.gif" alt="">
                 </div>
                 <div class="div3"> 
                     <p class="h30">SUPPLY :1 billion</p>
@@ -50,7 +93,10 @@
                     <p class="h30">MAX BUY : 1%</p>
                 </div>
                 <div class="div4">
-                    <img class="div4img" src="./bpd_logo.webp" alt=""> </div>
+                  <video class="vid" id="loopingVideo" COCNTROLS autoplay loop>
+                    <source src="./SEGAVID.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video> </div>
                 <div class="div5 "> 
                     <a  href=""><button class="btn a">MINT</button></a>
                     <a  href=""><button class="btn a">BUY</button></a>
@@ -128,7 +174,7 @@ button3.addEventListener("click", () => {
 
 for(var i = 0; i < buttons.length; i++) {
   // Click
-  showContent("Button 1", "image1.jpg", "Content for Button 1");
+
   buttons[i].addEventListener('mousedown', function() {
     this.classList.add('btn-active');
   });
@@ -166,16 +212,6 @@ for(var i = 0; i < buttons.length; i++) {
 
 //
 // ---Retro Submit Button---
-//
-var pButton = document.querySelector('.loader-button');
-
-// Click
-pButton.addEventListener('mousedown', function() {
-  this.classList.add('btn-active');
-});
-pButton.addEventListener('mouseup', function() {
-  this.classList.remove('btn-active');
-});
 
 
 // Classie Helper Functions
@@ -390,5 +426,28 @@ window.LoaderButton = LoaderButton;
   } );
 } );
     </script>
+<script>
+  function openPopup() {
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("popup").style.display = "block";
+  }
+  
+  function closePopup() {
+    document.getElementById("overlay").style.display = "none";
+    document.getElementById("popup").style.display = "none";
+  }
+  
+
+  
+  // Open the popup once the page loads
+  window.onload = function() {
+    openPopup();
+  };
+  </script>
+ 
+  
+  
+  
+
 </body>
 </html>
