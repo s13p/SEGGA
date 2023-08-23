@@ -848,7 +848,7 @@ a {
 }
 .ha {
 
-  background-image: url(./X.png);
+  background-image: url(./A.png);
   background-position: 10% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -856,7 +856,7 @@ a {
 }
 .he {
 
-  background-image: url(./Y.png);
+  background-image: url(./B.png);
   background-position: 10% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -872,21 +872,21 @@ a {
 }
 .hu {
 
-  background-image: url(./A.png);
+  background-image: url(./X.png);
   background-position: 10% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 
 }.ho {
 
-  background-image: url(./B.png);
+  background-image: url(./Y.png);
   background-position: 10% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 
 }.hihi {
 
-  background-image: url(./A.png);
+  background-image: url(./Z.png);
   background-position: 10% 50%;
   background-size: contain;
   background-repeat: no-repeat;
