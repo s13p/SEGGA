@@ -794,3 +794,30 @@ a {
   margin-top: -2em;
   margin-left:10% ;
 }
+
+.image-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 50px;
+  margin: 0 5rem;
+}
+
+.image-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.meme {
+  color: rgb(0, 0, 0);
+  background-color: aqua;
+  text-align: center;
+  padding: 20px;
+}
