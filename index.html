@@ -17,11 +17,15 @@
       position: fixed;
       top: 50%;
       left: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
       z-index: 999999;
       transform: translate(-50%, -50%);
       padding: 20px;
       background-color: white;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      
     }
     
     /* Styling for the overlay background */
@@ -50,8 +54,8 @@
 <div class="popup" id="popup">
 
   <H2>ARE YOU READY???</H2>
-  <button class="buttonZ" onclick="closePopup()">YES</button>
- <a href="puta.html"> <button class="buttonZ" onclick="closePopup()">NO</button></a>
+  <button class="buttonZ" style="font-size: 30px;        font-family: 'Press Start 2P', cursive; margin-left: 5REM;" onclick="closePopup()"> <img class="small" src="./A.png" alt=""><p>YES</p></button>
+ <a href="puta.html"> <button class="buttonZ" style="font-size: 30px;       font-family: 'Press Start 2P', cursive;"  onclick="closePopup()"> <img class="small" src="./B.png" alt=""><P>NO</P></button></a>
 
 </div>
     <div class="wrapper">
@@ -99,7 +103,7 @@
                     Your browser does not support the video tag.
                   </video> </div>
                 <div class="div5 "> 
-                    <a  href=""><button class="btn a">MINT</button></a>
+                    <a  href="" ><button class="btn a">  MINT</button></a>
                     <a  href=""><button class="btn a">BUY</button></a>
                     <a  href=""><button class="btn a">FUCK</button></a>
                 </div>

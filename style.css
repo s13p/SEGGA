@@ -12,6 +12,10 @@ body {
 
 
 }
+.small {
+  height: 50px;
+  width: 50px;
+}
 section {
     margin: 10vh 0;
     height: 100vh;
@@ -138,9 +142,10 @@ background-color: gray;}
     .btn {
 height: 100%;
 flex: 1;
-padding: 10px;
+
 width: 25rem;
-margin: 0 10px;
+
+
 background-color: #007bff;
 color: white;
 border: none;
