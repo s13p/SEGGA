@@ -122,6 +122,8 @@ background-color: gray;}
       background: white;
       color: black;
       letter-spacing: 5px;
+      font-size: 40PX;
+      font-weight: 500;
       -webkit-box-shadow: 20px 16px 0px 0px #000000;
       box-shadow: 20px 16px 0px 0px #000000;
     }
@@ -822,4 +824,28 @@ a {
   text-align: center;
   padding: 30px;
   font-size: 50PX;
+}
+.ha {
+
+  background-image: url(./A.png);
+  background-position: 10% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.he {
+
+  background-image: url(./X.png);
+  background-position: 10% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.hi {
+
+  background-image: url(./Z.png);
+  background-position: 10% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
