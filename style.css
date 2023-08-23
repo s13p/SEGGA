@@ -30,6 +30,12 @@ section {
     height: 100%;
     background-color: rgba(134, 134, 134, 0.219);
 }
+.box11 {
+
+  width: 70%;
+  height: 100%;
+  background-color: rgba(134, 134, 134, 0);
+}
 .box2 {
   height: auto;
   background-color: rgba(134, 134, 134, 0.219);
@@ -706,12 +712,22 @@ a {
     -webkit-transition: none !important;
     transition: none !important;
   }
+.makuku {
+  background-image: url("/ezgif-2-d31ef62777.gif");
 
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
   content {
     display: flex;
     align-items: center;
     padding: 10px;
-
+   height: 100%;
     border-top: 1px solid #ccc;
     margin-top: 10px;
   }
@@ -725,7 +741,9 @@ a {
     width: 100%;
     height: auto;
   }
-  
+  .container {
+    height: 80%;
+  }
   .paragraph-section {
     flex: 2;
   }
@@ -830,7 +848,7 @@ a {
 }
 .ha {
 
-  background-image: url(./A.png);
+  background-image: url(./X.png);
   background-position: 10% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -838,7 +856,7 @@ a {
 }
 .he {
 
-  background-image: url(./X.png);
+  background-image: url(./Y.png);
   background-position: 10% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -846,7 +864,7 @@ a {
 }
 .hi {
 
-  background-image: url(./Z.png);
+  background-image: url(./C.png);
   background-position: 10% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -854,14 +872,14 @@ a {
 }
 .hu {
 
-  background-image: url(./B.png);
+  background-image: url(./A.png);
   background-position: 10% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 
 }.ho {
 
-  background-image: url(./C.png);
+  background-image: url(./B.png);
   background-position: 10% 50%;
   background-size: contain;
   background-repeat: no-repeat;
