@@ -12,6 +12,9 @@ body {
 
 
 }
+.mafi {
+  font-size: 60px; font-weight: 500; letter-spacing: 5px;margin-top: 6rem;
+}
 .small {
   height: 50px;
   width: 50px;
@@ -48,7 +51,7 @@ section {
   color: white;
   text-align: center;
 }
-.box2 p {
+.box2  {
 margin: 100px;
   color: white;
   text-align: center;
@@ -128,7 +131,7 @@ background-color: gray;}
       background: white;
       color: black;
       letter-spacing: 5px;
-      font-size: 40PX;
+  
       font-weight: 500;
       -webkit-box-shadow: 20px 16px 0px 0px #000000;
       box-shadow: 20px 16px 0px 0px #000000;
@@ -767,6 +770,7 @@ a {
   }
   
 .q1 {
+
   height: 100%;
 }
 .q2 {
@@ -891,4 +895,103 @@ a {
   background-size: contain;
   background-repeat: no-repeat;
 
+}
+.pipi p {
+line-height: 25px;
+ font-size: 17px;
+ margin: 100px;
+}
+@media screen and (max-width: 580px) {
+.popup {
+  width: 100vw;
+
+}
+    .wrapper {
+      height: 110vh;
+      width: 100vw;
+      margin-top:-5vh;
+  }
+  .div5 {
+    display: block;
+    margin-top: -15vh;
+    height: 50px;
+  
+  }
+  .q1 {
+    margin: 10px 0;
+
+  }
+
+  .logo {
+  position: fixed;
+  top: 0;
+  }
+  .twatwa {
+    margin-top: 10vh;
+  }
+  .mp3 {
+    z-index: -4;
+  }
+  .btn {
+    width: 50vw;
+    margin-left: 25%;
+    z-index: 4444;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 15px 0 !important;
+  }
+  .meme {
+    font-size: 40px;
+  }
+  .div2 {
+  display: block;
+  }
+  .div3 {
+    display: block;
+    margin-top: 60vh;
+    background-color: rgba(0, 0, 0, 0);
+      }
+  .div4 {
+    margin-top: -40vh;
+  }
+  .box1 {
+    width: 100vw;
+  }
+  .h30 {
+    height: auto;
+    background-color: #00000000;
+  }
+  .pipi p {
+    width: 100vw !important;
+    padding: none;
+    line-height: 20px;
+    font-size: 12px;
+    margin-top: 2rem;
+  }
+
+  .box11 {
+    width: 100vw;
+    height: 50vh;
+  }
+  .q2  {
+    height: 50px;
+    font-size: 15px !important;
+    max-width: 30%;
+    letter-spacing: -3px;
+  }
+  .content img {
+    height: 100%;
+    width: auto;
+  }
+  .image-grid {
+    width: 80vw;
+    margin-left: 5vw ;
+    padding: none;
+  }
+  .mafi {
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-top: 2rem;
+  }
 }
