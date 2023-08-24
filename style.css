@@ -908,6 +908,9 @@ line-height: 25px;
  margin: 100px;
 }
 @media screen and (max-width: 500px) {
+  body {
+    overflow-x: none;
+  }
 .popup {
   width: 100vw;
 
